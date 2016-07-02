@@ -14,7 +14,8 @@ import java.util.ArrayList;
 public class FindSum {
 
     public static void findSum(Node head, int S, ArrayList<Integer> buffer, int level){
-        if(head==null) return;  //base case
+        if(head == null) return;  //base case
+
         buffer.add(head.data);
         int temp = S;
 
@@ -32,9 +33,12 @@ public class FindSum {
     }
 
     private static void printPath(ArrayList<Integer> buffer, int start, int end){
+
+        System.out.print("In Level " + end + ", find path: ");
+
         for(int i = start; i < end; i++){
-            System.out.println(buffer.get(i) + " ");
+            System.out.print(buffer.get(i) + " ---> ");
         }
-        System.out.println();
+        System.out.println(buffer.get(end) );
     }
 }

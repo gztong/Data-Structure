@@ -1,13 +1,18 @@
 package com.tonggangzheng.Trees;
 
 import java.io.IOException;
+import java.nio.Buffer;
+import java.util.ArrayList;
 
 /**
  * Created by Tong on 7/2/16.
  */
 public class TreesTest {
 
-    public static Tree buildTree() throws IOException{
+    private Tree tree = buildTree();
+
+
+    public static Tree buildTree(){
         Tree tree = new Tree(5);
 
         for(int i=2; i<4; i++){
@@ -21,6 +26,15 @@ public class TreesTest {
         tree.printTree(tree.root);
 
         return tree;
+    }
+
+    public void testFindSum(){
+
+        System.out.println( "Start test findSum ");
+        ArrayList<Integer> buffer = new ArrayList<Integer>();
+
+        FindSum.findSum(tree.root, 7, buffer, 0);
+
     }
 
 

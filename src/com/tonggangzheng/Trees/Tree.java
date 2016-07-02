@@ -40,27 +40,23 @@ public class Tree {
         }
     }
 
-    public void printTree(Node root) throws IOException  {
-        printTree(root, new OutputStreamWriter(System.out));
-    }
 
-
-    public void printTree(Node root, OutputStreamWriter out) throws IOException {
+    public void printTree(Node root) {
         if (root.right != null) {
-            printTree(root.right, out, true, "");
+            printTree(root.right, true, "");
         }
 
         System.out.println(root.data);
 
         if (root.left != null) {
-            printTree(root.left, out, false, "");
+            printTree(root.left, false, "");
         }
     }
 
     // use string and not stringbuffer on purpose as we need to change the indent at each recursion
-    private void printTree(Node root, OutputStreamWriter out, boolean isRight, String indent) throws IOException {
+    private void printTree(Node root, boolean isRight, String indent) {
         if (root.right != null) {
-            printTree(root.right, out, true, indent + (isRight ? "        " : " |      "));
+            printTree(root.right, true, indent + (isRight ? "        " : " |      "));
         }
         System.out.print(indent);
         if (isRight) {
@@ -72,7 +68,7 @@ public class Tree {
         System.out.println(root.data);
         
         if (root.left != null) {
-            printTree(root.left, out, false, indent + (isRight ? " |      " : "        "));
+            printTree(root.left, false, indent + (isRight ? " |      " : "        "));
         }
     }
 }
