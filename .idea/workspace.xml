@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e31d874-494b-48bc-b07c-1a592bbe57f7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tonggangzheng/Main.java" afterPath="$PROJECT_DIR$/src/com/tonggangzheng/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tonggangzheng/Trees/FindSum.java" afterPath="$PROJECT_DIR$/src/com/tonggangzheng/Trees/FindSum.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tonggangzheng/Trees/Tree.java" afterPath="$PROJECT_DIR$/src/com/tonggangzheng/Trees/Tree.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tonggangzheng/Trees/TreesTest.java" afterPath="$PROJECT_DIR$/src/com/tonggangzheng/Trees/TreesTest.java" />
     </list>
@@ -31,8 +29,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tonggangzheng/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="180">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,14 +51,27 @@
       <file leaf-file-name="Tree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tonggangzheng/Trees/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-143">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="342">
+              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindSum.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SubTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/tonggangzheng/Trees/SubTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+              <folding>
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindSum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tonggangzheng/Trees/FindSum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -86,11 +97,11 @@
       <file leaf-file-name="TreesTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tonggangzheng/Trees/TreesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+            <state relative-caret-position="432">
+              <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#627#636#0" expanded="true" />
+                <element signature="e#737#746#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,10 +140,11 @@
         <option value="$PROJECT_DIR$/src/com/tonggangzheng/BitManipulation/UpdateBits.java" />
         <option value="$PROJECT_DIR$/src/com/tonggangzheng/Trees/Trees.java" />
         <option value="$PROJECT_DIR$/src/com/tonggangzheng/Trees/Node.java" />
+        <option value="$PROJECT_DIR$/src/com/tonggangzheng/Trees/FindSum.java" />
         <option value="$PROJECT_DIR$/src/com/tonggangzheng/Trees/Tree.java" />
         <option value="$PROJECT_DIR$/src/com/tonggangzheng/Main.java" />
         <option value="$PROJECT_DIR$/src/com/tonggangzheng/Trees/TreesTest.java" />
-        <option value="$PROJECT_DIR$/src/com/tonggangzheng/Trees/FindSum.java" />
+        <option value="$PROJECT_DIR$/src/com/tonggangzheng/Trees/SubTree.java" />
       </list>
     </option>
   </component>
@@ -514,7 +526,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985073" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -551,7 +563,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -611,7 +623,7 @@
           <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#627#636#0" expanded="true" />
+            <element signature="e#737#746#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -661,18 +673,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tonggangzheng/Trees/FindSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tonggangzheng/Trees/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-143">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="342">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tonggangzheng/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -681,20 +701,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tonggangzheng/Trees/TreesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        <state relative-caret-position="432">
+          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#627#636#0" expanded="true" />
+            <element signature="e#737#746#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tonggangzheng/Trees/FindSum.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tonggangzheng/Trees/SubTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="304">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding>
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

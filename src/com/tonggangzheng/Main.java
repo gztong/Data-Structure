@@ -11,7 +11,7 @@ public class Main {
 
         TreesTest test = new TreesTest();
 
-        test.testFindSum();
+        test.testSubTree();
     }
 
 }

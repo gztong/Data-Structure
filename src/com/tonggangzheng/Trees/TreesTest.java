@@ -1,5 +1,7 @@
 package com.tonggangzheng.Trees;
 
+import javafx.scene.media.SubtitleTrack;
+
 import java.io.IOException;
 import java.nio.Buffer;
 import java.util.ArrayList;
@@ -9,17 +11,19 @@ import java.util.ArrayList;
  */
 public class TreesTest {
 
-    private Tree tree = buildTree();
+    private Tree tree = buildTree(32);
+
+    private Tree tree2 =  buildTree(18);
 
 
-    public static Tree buildTree(){
-        Tree tree = new Tree(5);
+    public static Tree buildTree(int count){
+        Tree tree = new Tree(count/2);
 
-        for(int i=2; i<4; i++){
+        for(int i=2; i<count; i++){
             tree.insert(i);
         }
 
-        for(int i=6; i<9; i++){
+        for(int i=7; i<count; i+=2){
             tree.insert(i);
         }
 
@@ -37,6 +41,14 @@ public class TreesTest {
 
     }
 
+    public void testSubTree(){
+        System.out.println( "Start test testSubTree ");
+
+        boolean result = SubTree.containsTree(tree2, tree);
+
+        System.out.println(result);
+
+    }
 
 
 }
