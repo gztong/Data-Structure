@@ -5,6 +5,7 @@ package com.tonggangzheng.Search;
  */
 public class BinarySearch {
     private static int arr[] = {1};
+    private static String withEmpty[] = {"at", "", "", "", "ball", "car","","dad"};
 
     private static int search(int a[], int left, int right, int x){
         while(left <= right){
@@ -47,4 +48,35 @@ public class BinarySearch {
         int index = searchRec(arr, 0, arr.length-1, 10);
         System.out.println(index);
     }
+
+
+    private static int searchStr(String arr[], int left, int right, String x){
+        while(left <= right){
+
+            // Ensure there is something at the end
+            while( left <= right && arr[right] == ""){
+                right --;
+            }
+
+            if(left < right) return -1;
+
+            int middle = (left + right) / 2;
+
+            if(arr[middle].equals("")){
+                middle++;
+            }
+
+            if (arr[middle].equals(x) ){
+                return middle;
+            }
+            if( x.compareTo(arr[middle])<0  ){
+                right = middle -1;
+            }else{
+                left = middle + 1;
+            }
+        }
+
+        return -1;
+    }
 }
+
