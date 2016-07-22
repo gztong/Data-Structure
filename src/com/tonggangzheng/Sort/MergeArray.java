@@ -18,7 +18,7 @@ public class MergeArray {
             if( A[i] > B[j]){
                 A[k] = A[i];
                 i--;
-            }else (A[i] < B[j]){
+            }else{
                 A[k] = B[j];
             }
             k--;
