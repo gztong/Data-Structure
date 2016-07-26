@@ -11,6 +11,7 @@ import com.tonggangzheng.Search.BinarySearch;
 import com.tonggangzheng.Sort.MergeSort;
 import com.tonggangzheng.Sort.QuickSort;
 import com.tonggangzheng.Trees.MinimumDepth;
+import com.tonggangzheng.Trees.Traversal;
 import com.tonggangzheng.Trees.Tree;
 import com.tonggangzheng.Trees.TreesTest;
 import java.io.IOException;
@@ -23,9 +24,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-       RemoveDuplicates2.test();
-
-        PriorityQueue q = new PriorityQueue(10, Collections.reverseOrder());
+        Traversal.test();
 
     }
 

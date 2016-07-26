@@ -75,11 +75,11 @@ public class Tree {
     public static Node getSampleTree(){
         Node root = new Node(5);
 
-        root.insert(4);
-        root.insert(6);
+        root.insert(1);
+        root.insert(9);
         root.insert(3);
         root.insert(7);
-
+        root.insert(2);
 
 
         return root;
